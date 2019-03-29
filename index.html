@@ -17,6 +17,21 @@
     </style>
     <meta name="viewport" content="width=device-width, initial-scale=1"> 
   </head>
+  <!-- WhatsHelp.io widget -->
+<script type="text/javascript">
+  (function () {
+      var options = {
+          whatsapp: "+57 3024135330", // WhatsApp number
+          call_to_action: "Message us", // Call to action
+          position: "right", // Position may be 'right' or 'left'
+      };
+      var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+      var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; '/js/init.js';
+      s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+      var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+  })();
+</script>
+<!-- /WhatsHelp.io widget -->
   <body>
     <i class="icon-menu burger-button" id="burger-menu"></i>
     <header class="header">
@@ -61,14 +76,15 @@
 
           <h6 class="project-course">Nodejs / Angular / Mongo / Aws services / Api rest / api MikroTik / Gitlab / Json / epayco </h6>
           <p class="project-date"><small><strong>Fecha inicio:</strong> FEB 2019 - Actalmente en este proyecto</small></p>
-          <p class="project-url"><small><strong>Puedes verlo en:</strong> <a target="_blank" href="http://18.228.148.36/megared/public/">http://18.228.148.36/megared/public/</a></small></p> 
-          <p class="project-description">Megared requiere de un sistema donde pueda administrar los diferentes routers MikroTik .
+          <p class="project-url"><small><strong>Puedes verlo en:</strong> <a target="_blank" href="http://startconnect.co">http://startconnect.co</a></small></p> 
+          <p class="project-description">Megared requiere de un sistema donde pueda administrar los diferentes routers MikroTik donde podrán asignar a sus clientes ips para dar servicio de internet y de esta manera poder administrar el internet que le proveen a sus clientes, se busca que esta plataforma (start connect) tenga subscripciones para que no solo megared la pueda utilizar si no también pequeñas pymes proveedoras del servicio de internet la puedan utilizar. Por otro lado se esta integrando la api de sms y voice de twillio para que el sistema empiece a notificar a los clientes del pago de sus facturas.
           </p>
         </div>
-        <figure class="project-imageContainer">
-          <img class="project-image" width="150" src="images/bonfire.png" alt="proyecto integración megared">
-          <img class="project-image" width="150" src="images/1200px-PHP-logo.svg.png" alt="proyecto integración megared">
-          <img class="project-image" width="150" src="images/jquery-logo.png" alt="proyecto integración megared">
+        <figure class="project-imageContainer mikr">
+          <img class="project-image" width="80" src="images/mean-stack.png" alt="proyecto integración megared">
+          <img class="project-image" width="80" src="images/mikr.svg" alt="proyecto integración megared">
+          <img class="project-image" width="80" src="images/alianza.svg" alt="proyecto integración megared">
+          <img class="project-image" width="80" src="images/twillio.png" alt="proyecto integración megared">
         </figure>
       </article>
       
@@ -241,73 +257,64 @@
       <div class="container">
         <article class="event">
           <figure class="event-imageContainer">
-            <img class="event-image" src="images/platzi-conf.png" width="500" />
+            <img class="event-image" src="images/bet.jpg" width="500" />
           </figure>
           <div class="event-detail">
-            <h3 class="event-title">PlatziConf México 2018</h3>
-            <p class="event-description">El evento más grande sobre gente que quiere aprender más de internet. En esté evento te comparto como tener una vida de constante aprendizaje.</p>
+            <h3 class="event-title">Carteleras digitales</h3>
+            <p class="event-description">Modulo de carteleras digitales donde las tres empresas del eje cafetero podran hacer publicidad de sus diferentes servicios y productos.</p>
             <a class="event-url" href="https://www.youtube.com/watch?v=LCjFbfa3tXs&feature=youtu.be" target="_blank">Ver Plática</a>
           </div>
         </article>
+
         <article class="event">
           <figure class="event-imageContainer">
-            <div class="flexible-video">
-              <iframe class="youtube-video" width="560" height="315" src="https://www.youtube.com/watch?v=LCjFbfa3tXs&feature=youtu.be" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            </div>
-            <!-- <img class="event-image" src="images/platzi-conf.png" width="500" /> -->
+            <img class="event-image" src="images/agile.png" width="500" />
           </figure>
           <div class="event-detail">
-            <h3 class="event-title">PlatziConf México 2018</h3>
-            <p class="event-description">El evento más grande sobre gente que quiere aprender más de internet. En esté evento te comparto como tener una vida de constante aprendizaje.</p>
-            <a class="event-url" href="https://www.youtube.com/watch?v=LCjFbfa3tXs&feature=youtu.be" target="_blank">Ver Plática</a>
+            <h3 class="event-title">Agiles colombia 2018</h3>
+            <p class="event-description">MEl evento donde aportamos y aprendemos de mentores que ayudan a ver la industria de una manera mas agil.</p>
+  
+         
           </div>
         </article>
+
+
         <article class="event">
           <figure class="event-imageContainer">
-            <video class="html-video" src="videos/f8.mp4" width="1280" height="720" controls></video>
-            <!-- <img class="event-image" src="images/platzi-conf.png" width="500" /> -->
+            <img class="event-image" src="images/tech.jpeg" width="500" />
           </figure>
           <div class="event-detail">
-            <h3 class="event-title">PlatziConf México 2018</h3>
-            <p class="event-description">El evento más grande sobre gente que quiere aprender más de internet. En esté evento te comparto como tener una vida de constante aprendizaje.</p>
-            <a class="event-url" href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank">Ver Plática</a>
+            <h3 class="event-title">Quindio Tech</h3>
+            <p class="event-description">Miembro activo de la comunidad de tecnologia donde se aprende referente a temas tecnologico</p>
+  
+         
           </div>
         </article>
-        <article class="event">
-          <figure class="event-imageContainer">
-            <img class="event-image" src="images/platzi-conf.png" width="500" />
-          </figure>
-          <div class="event-detail">
-            <h3 class="event-title">PlatziConf México 2018</h3>
-            <p class="event-description">El evento más grande sobre gente que quiere aprender más de internet. En esté evento te comparto como tener una vida de constante aprendizaje.</p>
-            <a class="event-url" href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank">Ver Plática</a>
-          </div>
-        </article>
+
+        
+        
       </div>
     </section>
     <section id="contacto" class="contact">
       <div class="container">
         <form action="/suscripcion/" class="form-email">
           <h3>¿Creamos algo juntos?</h3>
-          <input type="text" placeholder="Déjame tu email" id="email">
-          <button>Enviar</button>
+          <h5>Escribeme <b>hluisfernando1@gmail.com</b></h5>
         </form>
         <div class="social">
-          <a href="https://twitter.com/leonidasesteban" class="social-link twitter"></a>
-          <a href="https://facebook.com/leonidas.esteban" class="social-link facebook"></a>
-          <a href="https://github.com/leonidasesteban" class="social-link github"></a>
-          <a href="https://instagram.com/leonidasesteban" class="social-link instagram"></a>
+          <a target="_blank" href="https://www.linkedin.com/in/luis-fernando-hernandez-calderon-35b02a149/" class="social-link linkedin"></a>
+          <a target="_blank" href="https://gitlab.com/luisfdo/" class="social-link gitlab"></a>
         </div>
       </div>
     </section>
     <footer class="footer">
       <div class="container">
         <div>
-          <p>Curso de Desarrollo web online 2018 <img src="images/platzi.png" width="80" alt="platzi"></p>
+          <p>Portafolio 2019 <img src="images/favicon.png" width="30" alt="platzi"></p>
         </div>
         <div>
           <p>
-            Designed with ❤️ by <a href="https://twitter.com/thespianartist">@thespianartist</a>
+            Designed with ❤️ by <a target="_blank" href="https://www.linkedin.com/in/luis-fernando-hernandez-calderon-35b02a149/">Luis Fernando Hernandez</a>
           </p>
         </div>
       </div>
@@ -316,4 +323,5 @@
     <script src="js/app.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro" rel="stylesheet">
   </body>
+  
 </html>
